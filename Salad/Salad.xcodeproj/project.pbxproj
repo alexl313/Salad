@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF23C4E925AF974300564A73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF23C4E825AF974300564A73 /* AppDelegate.swift */; };
+		DF23C4EB25AF974300564A73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF23C4EA25AF974300564A73 /* SceneDelegate.swift */; };
+		DF23C4ED25AF974300564A73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF23C4EC25AF974300564A73 /* ViewController.swift */; };
+		DF23C4F025AF974300564A73 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF23C4EE25AF974300564A73 /* Main.storyboard */; };
+		DF23C4F325AF974300564A73 /* Salad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF23C4F125AF974300564A73 /* Salad.xcdatamodeld */; };
+		DF23C4F525AF974500564A73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF23C4F425AF974500564A73 /* Assets.xcassets */; };
+		DF23C4F825AF974500564A73 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF23C4F625AF974500564A73 /* LaunchScreen.storyboard */; };
+		DF23C50325AF974500564A73 /* SaladTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF23C50225AF974500564A73 /* SaladTests.swift */; };
+		DF23C50E25AF974500564A73 /* SaladUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF23C50D25AF974500564A73 /* SaladUITests.swift */; };
+		DF23C51C25AF9A9B00564A73 /* Topping1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF23C51B25AF9A9B00564A73 /* Topping1.swift */; };
+		DF23C51E25AF9AC900564A73 /* Topping2.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF23C51D25AF9AC900564A73 /* Topping2.swift */; };
+		DF23C52025AF9B5000564A73 /* Topping3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF23C51F25AF9B5000564A73 /* Topping3.swift */; };
+		DF23C52425AF9BC200564A73 /* Topping4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF23C52325AF9BC200564A73 /* Topping4.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF23C4FF25AF974500564A73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF23C4DD25AF974300564A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF23C4E425AF974300564A73;
+			remoteInfo = Salad;
+		};
+		DF23C50A25AF974500564A73 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF23C4DD25AF974300564A73 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF23C4E425AF974300564A73;
+			remoteInfo = Salad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF23C4E525AF974300564A73 /* Salad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Salad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF23C4E825AF974300564A73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF23C4EA25AF974300564A73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF23C4EC25AF974300564A73 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF23C4EF25AF974300564A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF23C4F225AF974300564A73 /* Salad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Salad.xcdatamodel; sourceTree = "<group>"; };
+		DF23C4F425AF974500564A73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF23C4F725AF974500564A73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF23C4F925AF974500564A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF23C4FE25AF974500564A73 /* SaladTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaladTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF23C50225AF974500564A73 /* SaladTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaladTests.swift; sourceTree = "<group>"; };
+		DF23C50425AF974500564A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF23C50925AF974500564A73 /* SaladUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SaladUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF23C50D25AF974500564A73 /* SaladUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaladUITests.swift; sourceTree = "<group>"; };
+		DF23C50F25AF974500564A73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF23C51B25AF9A9B00564A73 /* Topping1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topping1.swift; sourceTree = "<group>"; };
+		DF23C51D25AF9AC900564A73 /* Topping2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topping2.swift; sourceTree = "<group>"; };
+		DF23C51F25AF9B5000564A73 /* Topping3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topping3.swift; sourceTree = "<group>"; };
+		DF23C52325AF9BC200564A73 /* Topping4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topping4.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF23C4E225AF974300564A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF23C4FB25AF974500564A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF23C50625AF974500564A73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF23C4DC25AF974300564A73 = {
+			isa = PBXGroup;
+			children = (
+				DF23C4E725AF974300564A73 /* Salad */,
+				DF23C50125AF974500564A73 /* SaladTests */,
+				DF23C50C25AF974500564A73 /* SaladUITests */,
+				DF23C4E625AF974300564A73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF23C4E625AF974300564A73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF23C4E525AF974300564A73 /* Salad.app */,
+				DF23C4FE25AF974500564A73 /* SaladTests.xctest */,
+				DF23C50925AF974500564A73 /* SaladUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF23C4E725AF974300564A73 /* Salad */ = {
+			isa = PBXGroup;
+			children = (
+				DF23C4E825AF974300564A73 /* AppDelegate.swift */,
+				DF23C4EA25AF974300564A73 /* SceneDelegate.swift */,
+				DF23C4EC25AF974300564A73 /* ViewController.swift */,
+				DF23C4EE25AF974300564A73 /* Main.storyboard */,
+				DF23C52325AF9BC200564A73 /* Topping4.swift */,
+				DF23C51F25AF9B5000564A73 /* Topping3.swift */,
+				DF23C51D25AF9AC900564A73 /* Topping2.swift */,
+				DF23C51B25AF9A9B00564A73 /* Topping1.swift */,
+				DF23C4F425AF974500564A73 /* Assets.xcassets */,
+				DF23C4F625AF974500564A73 /* LaunchScreen.storyboard */,
+				DF23C4F925AF974500564A73 /* Info.plist */,
+				DF23C4F125AF974300564A73 /* Salad.xcdatamodeld */,
+			);
+			path = Salad;
+			sourceTree = "<group>";
+		};
+		DF23C50125AF974500564A73 /* SaladTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF23C50225AF974500564A73 /* SaladTests.swift */,
+				DF23C50425AF974500564A73 /* Info.plist */,
+			);
+			path = SaladTests;
+			sourceTree = "<group>";
+		};
+		DF23C50C25AF974500564A73 /* SaladUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF23C50D25AF974500564A73 /* SaladUITests.swift */,
+				DF23C50F25AF974500564A73 /* Info.plist */,
+			);
+			path = SaladUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF23C4E425AF974300564A73 /* Salad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF23C51225AF974500564A73 /* Build configuration list for PBXNativeTarget "Salad" */;
+			buildPhases = (
+				DF23C4E125AF974300564A73 /* Sources */,
+				DF23C4E225AF974300564A73 /* Frameworks */,
+				DF23C4E325AF974300564A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Salad;
+			productName = Salad;
+			productReference = DF23C4E525AF974300564A73 /* Salad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF23C4FD25AF974500564A73 /* SaladTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF23C51525AF974500564A73 /* Build configuration list for PBXNativeTarget "SaladTests" */;
+			buildPhases = (
+				DF23C4FA25AF974500564A73 /* Sources */,
+				DF23C4FB25AF974500564A73 /* Frameworks */,
+				DF23C4FC25AF974500564A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF23C50025AF974500564A73 /* PBXTargetDependency */,
+			);
+			name = SaladTests;
+			productName = SaladTests;
+			productReference = DF23C4FE25AF974500564A73 /* SaladTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF23C50825AF974500564A73 /* SaladUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF23C51825AF974500564A73 /* Build configuration list for PBXNativeTarget "SaladUITests" */;
+			buildPhases = (
+				DF23C50525AF974500564A73 /* Sources */,
+				DF23C50625AF974500564A73 /* Frameworks */,
+				DF23C50725AF974500564A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF23C50B25AF974500564A73 /* PBXTargetDependency */,
+			);
+			name = SaladUITests;
+			productName = SaladUITests;
+			productReference = DF23C50925AF974500564A73 /* SaladUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF23C4DD25AF974300564A73 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = user167306;
+				TargetAttributes = {
+					DF23C4E425AF974300564A73 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					DF23C4FD25AF974500564A73 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = DF23C4E425AF974300564A73;
+					};
+					DF23C50825AF974500564A73 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = DF23C4E425AF974300564A73;
+					};
+				};
+			};
+			buildConfigurationList = DF23C4E025AF974300564A73 /* Build configuration list for PBXProject "Salad" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF23C4DC25AF974300564A73;
+			productRefGroup = DF23C4E625AF974300564A73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF23C4E425AF974300564A73 /* Salad */,
+				DF23C4FD25AF974500564A73 /* SaladTests */,
+				DF23C50825AF974500564A73 /* SaladUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF23C4E325AF974300564A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF23C4F825AF974500564A73 /* LaunchScreen.storyboard in Resources */,
+				DF23C4F525AF974500564A73 /* Assets.xcassets in Resources */,
+				DF23C4F025AF974300564A73 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF23C4FC25AF974500564A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF23C50725AF974500564A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF23C4E125AF974300564A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF23C51E25AF9AC900564A73 /* Topping2.swift in Sources */,
+				DF23C4ED25AF974300564A73 /* ViewController.swift in Sources */,
+				DF23C4E925AF974300564A73 /* AppDelegate.swift in Sources */,
+				DF23C52425AF9BC200564A73 /* Topping4.swift in Sources */,
+				DF23C52025AF9B5000564A73 /* Topping3.swift in Sources */,
+				DF23C51C25AF9A9B00564A73 /* Topping1.swift in Sources */,
+				DF23C4EB25AF974300564A73 /* SceneDelegate.swift in Sources */,
+				DF23C4F325AF974300564A73 /* Salad.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF23C4FA25AF974500564A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF23C50325AF974500564A73 /* SaladTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF23C50525AF974500564A73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF23C50E25AF974500564A73 /* SaladUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF23C50025AF974500564A73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF23C4E425AF974300564A73 /* Salad */;
+			targetProxy = DF23C4FF25AF974500564A73 /* PBXContainerItemProxy */;
+		};
+		DF23C50B25AF974500564A73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF23C4E425AF974300564A73 /* Salad */;
+			targetProxy = DF23C50A25AF974500564A73 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF23C4EE25AF974300564A73 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF23C4EF25AF974300564A73 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF23C4F625AF974500564A73 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF23C4F725AF974500564A73 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF23C51025AF974500564A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF23C51125AF974500564A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF23C51325AF974500564A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Salad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-LIs.Salad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF23C51425AF974500564A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Salad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-LIs.Salad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF23C51625AF974500564A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SaladTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-LIs.SaladTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salad.app/Salad";
+			};
+			name = Debug;
+		};
+		DF23C51725AF974500564A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SaladTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-LIs.SaladTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salad.app/Salad";
+			};
+			name = Release;
+		};
+		DF23C51925AF974500564A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SaladUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-LIs.SaladUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Salad;
+			};
+			name = Debug;
+		};
+		DF23C51A25AF974500564A73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SaladUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alex-LIs.SaladUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Salad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF23C4E025AF974300564A73 /* Build configuration list for PBXProject "Salad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF23C51025AF974500564A73 /* Debug */,
+				DF23C51125AF974500564A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF23C51225AF974500564A73 /* Build configuration list for PBXNativeTarget "Salad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF23C51325AF974500564A73 /* Debug */,
+				DF23C51425AF974500564A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF23C51525AF974500564A73 /* Build configuration list for PBXNativeTarget "SaladTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF23C51625AF974500564A73 /* Debug */,
+				DF23C51725AF974500564A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF23C51825AF974500564A73 /* Build configuration list for PBXNativeTarget "SaladUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF23C51925AF974500564A73 /* Debug */,
+				DF23C51A25AF974500564A73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF23C4F125AF974300564A73 /* Salad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF23C4F225AF974300564A73 /* Salad.xcdatamodel */,
+			);
+			currentVersion = DF23C4F225AF974300564A73 /* Salad.xcdatamodel */;
+			path = Salad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF23C4DD25AF974300564A73 /* Project object */;
+}
